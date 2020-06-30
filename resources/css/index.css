@@ -1,0 +1,149 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell; 
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+}
+
+/* header starts here*/
+/* navigation bar */
+nav { 
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  text-align: left;
+  background-color: black;
+  top: 0;
+  z-index: 10;
+}
+
+header img {
+  height: 50px;
+  width: auto;
+  margin: 10px;
+}
+
+ul {
+  float: right;
+  margin-right: 10px;
+}
+
+li {
+  display: inline;
+  margin-left: 20px;
+}
+
+a {
+  color: seashell;
+}
+
+/* page description */
+.page-title {
+  background-image: url('https://res.cloudinary.com/doaazgsrk/image/upload/v1593531221/Beige/title_qccmx9.jpg');
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.mission {
+  width: 100%;
+  background-color: black;
+}
+
+.mission h2 {
+  margin: 10px;
+}
+
+.mission h4 {
+  margin: 10px;
+}
+
+/* header ends here */
+
+/* main starts here */
+main {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.options h2 {
+  margin-bottom: 15px;
+}
+
+.options h4 {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.teas div {
+  margin: 16.670px;
+  margin-bottom: 0px;
+}
+
+.teas img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.teas h4 {
+  margin-bottom: 10px;
+}
+/* main ends here */
+
+/* footer starts here */
+/* location */
+#location-header {
+  position: relative;
+  margin-top: 5px;
+  top: 140px;
+}
+
+.location {
+  background-image: url('../imgs/locations.jpg');
+  width: 1200px;
+  height: 570px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.location div{
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* contact */
+.contact {
+  height: 200px;
+}
+
+.contact h2 {
+  margin-top: 10px;
+}
+
+/* copyright */
+
+#copyright {
+  margin-left: 20px;
+  text-align: left;
+}
