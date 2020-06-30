@@ -1,6 +1,6 @@
 body {
   font-family: Helvetica, sans-serif;
-  font-size: 22px;
+  font-size: 1.375rem;
   color: seashell; 
   background-color: black;
   opacity: 0.9;
@@ -14,27 +14,33 @@ nav {
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
+  min-width: 55rem;
   position: fixed;
-  text-align: left;
   background-color: black;
   top: 0;
   z-index: 10;
 }
 
-header img {
-  height: 50px;
-  width: auto;
-  margin: 10px;
-}
-
 ul {
-  float: right;
-  margin-right: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 3.55rem;
 }
 
 li {
   display: inline;
-  margin-left: 20px;
+  margin: 0 1.5rem 0 1.5rem;
+}
+
+nav p {
+  font-family: 'Monofett', cursive;
+  font-size: 3rem;
+  color: beige;
+  display: block;
+  margin-top: 0;
+  position: relative;
+  bottom: 1.45rem;
 }
 
 a {
