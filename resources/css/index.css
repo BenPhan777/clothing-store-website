@@ -12,7 +12,7 @@ body {
 /* navigation bar */
 nav { 
   border-bottom: 1px solid seashell;
-  height: 69px;
+  height: 4.3125rem;
   width: 100%;
   min-width: 55rem;
   position: fixed;
@@ -30,17 +30,16 @@ ul {
 
 li {
   display: inline;
-  margin: 0 1.5rem 0 1.5rem;
+  margin: 0 1.5rem;
 }
 
 nav p {
+  position: relative;
+  bottom: 1.45rem;
   font-family: 'Monofett', cursive;
   font-size: 3rem;
   color: beige;
-  display: block;
-  margin-top: 0;
-  position: relative;
-  bottom: 1.45rem;
+  margin: 0 1.5rem;
 }
 
 a {
@@ -49,26 +48,14 @@ a {
 
 /* page description */
 .page-title {
-  background-image: url('https://res.cloudinary.com/doaazgsrk/image/upload/v1593531221/Beige/title_qccmx9.jpg');
+  background-image: url('https://res.cloudinary.com/doaazgsrk/image/upload/v1593536301/Beige/title_nbetk7.jpg');
+  background-size: cover;
   width: 80%;
-  height: auto;
+  height: 80rem;
   margin: 0 auto;
   margin-top: 70px;
   display: flex;
   align-items: center;
-}
-
-.mission {
-  width: 100%;
-  background-color: black;
-}
-
-.mission h2 {
-  margin: 10px;
-}
-
-.mission h4 {
-  margin: 10px;
 }
 
 /* header ends here */
