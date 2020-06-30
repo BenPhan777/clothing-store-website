@@ -14,7 +14,7 @@ nav {
   border-bottom: 1px solid seashell;
   height: 4.3125rem;
   width: 100%;
-  min-width: 55rem;
+  min-width: 58rem;
   position: fixed;
   background-color: black;
   top: 0;
@@ -51,11 +51,31 @@ a {
   background-image: url('https://res.cloudinary.com/doaazgsrk/image/upload/v1593536301/Beige/title_nbetk7.jpg');
   background-size: cover;
   width: 80%;
-  height: 80rem;
+  height: 40rem;
   margin: 0 auto;
   margin-top: 70px;
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.message {
+  width: 43%;
+  border: 0.4rem double beige;
+  background-color: rgba(0,0,0,0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1rem;
+}
+
+.message h1 {
+  font-family: 'Sail', cursive;
+  margin: 0;
+  font-size: 5rem;
+}
+
+.message p {
+  margin: 0;
+  font-size: 2rem;
 }
 
 /* header ends here */
