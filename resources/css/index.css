@@ -90,6 +90,7 @@ main {
 .about-section {   /* about-section starts here */
   width: 50%; 
   margin: 0 auto;
+  margin-top: 3rem;
   display: grid;
   grid-template-columns: 25rem 20rem;
   grid-template-rows: 4rem 30rem;
@@ -117,36 +118,22 @@ main {
   text-align: left;
 }
 
-
-
-.options h2 {
-  margin-bottom: 15px;
+.feature-section { /* feature-section starts here */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10rem 1fr;
+  grid-column-gap: 1.5rem;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.options h4 {
-  margin-bottom: 10px;
-  margin-top: 0px;
+.feature-section img {
+  width: 100%;
+  height: 15rem;
 }
 
-.teas {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.teas div {
-  margin: 16.670px;
-  margin-bottom: 0px;
-}
-
-.teas img {
-  width: 300px;
-  height: 200px;
-  margin-bottom: 10px;
-}
-
-.teas h4 {
-  margin-bottom: 10px;
+.options {
+  grid-column: 1 / 4;
 }
 /* main ends here */
 
