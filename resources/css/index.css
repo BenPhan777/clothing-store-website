@@ -215,9 +215,8 @@ button[type="submit"]:hover {
 /* main ends here */
 
 /* footer starts here */
-
-#copyright {  
+#cite {  
   margin-top: 5rem;
-  margin-left: 1rem;
-  text-align: left;
+  text-align: center;
 }
+/* footer ends here */
