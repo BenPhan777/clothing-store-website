@@ -90,7 +90,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100rem;
+  height: 130rem;
   justify-content: space-between;
 }
 
@@ -196,50 +196,28 @@ button[type="submit"]:hover {
   color: white;
 }
 
+#contact-section { /* contact-section starts here */
+  background-image: url("https://res.cloudinary.com/doaazgsrk/image/upload/v1593621161/Beige/location_a2i437.jpg");
+  background-size: cover;
+  width: 60%;
+  height: 30rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+#contact-section div {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 40%;
+  line-height: 2rem;
+}
 /* main ends here */
 
 /* footer starts here */
-/* location */
-footer {
-  margin-top: 30rem;
-}
-#location-header {
-  position: relative;
-  margin-top: 70px;
-  top: 140px;
-}
 
-.location {
-  background-image: url("../imgs/locations.jpg");
-  width: 1200px;
-  height: 570px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.location div{
-  background-color: black;
-  opacity: 1;
-  width: 300px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-/* contact */
-.contact {
-  height: 200px;
-}
-
-.contact h2 {
-  margin-top: 10px;
-}
-
-/* copyright */
-
-#copyright {
-  margin-left: 20px;
+#copyright {  
+  margin-top: 5rem;
+  margin-left: 1rem;
   text-align: left;
 }
