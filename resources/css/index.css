@@ -14,7 +14,7 @@ nav {
   border-bottom: 1px solid seashell;
   height: 4.3125rem;
   width: 100%;
-  min-width: 58rem;
+  min-width: 60rem;
   position: fixed;
   background-color: black;
   top: 0;
@@ -51,6 +51,7 @@ a {
   background-image: url('https://res.cloudinary.com/doaazgsrk/image/upload/v1593536301/Beige/title_nbetk7.jpg');
   background-size: cover;
   width: 80%;
+  min-width: 30rem;
   height: 40rem;
   margin: 0 auto;
   margin-top: 70px;
@@ -82,10 +83,41 @@ a {
 
 /* main starts here */
 main {
-  width: 1000px;
-  margin: 0 auto;
-  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
 }
+
+.about-section {   /* about-section starts here */
+  width: 50%; 
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 25rem 20rem;
+  grid-template-rows: 4rem 30rem;
+  grid-column-gap: 1.3rem;
+  grid-template-areas:
+     "header header"
+     "p img";
+}
+
+.about-section h2 {
+  grid-area: header;
+  align-self: flex-start;
+  width: 100%;
+}
+
+.about-section img {
+  grid-area: img;
+  height: 75%;
+  width: auto;
+  margin-top: 1.8rem;
+}
+
+.about-section p {
+  grid-area: p;
+  text-align: left;
+}
+
+
 
 .options h2 {
   margin-bottom: 15px;
